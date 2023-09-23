@@ -1,0 +1,83 @@
+.page-one-outer-b{
+    height: 100vh;
+    background-image: url('../assets//lather-work-shop-img.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+}
+.dark-outer-b{
+    width:100%;
+    height:100%;
+    background-color: rgba(12, 12, 12, 0.6);
+}
+.contact-short-desc-outer-b{
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 40px 10px 40px;
+ height: 50px;
+}
+.header-zone-b{
+    width:100%;
+    height:568px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-one-header-one-b{
+    width: 100%;
+    height:25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.page-one-header-one-b h1{
+    font-size: 60px;
+}
+.page-one-header-two-b h1{
+    font-size: 100px;
+}
+.page-one-wallet-img{
+    width: 100%;
+    height:25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wallet-one{
+    position: relative;
+    width: 15%;
+    height: 100%;
+    transform: rotate(25deg);
+}
+.wallet-one img{
+    position: absolute;
+    width:300px;
+    height: auto;
+    top:-60px;
+}
+@media screen and (max-width:641px){
+    .contact-b h6{
+        font-size: 10px;
+    }
+    .contact-short-desc-outer-b h6{
+        font-size: 10px;
+    }
+    .page-one-header-one-b h1{
+        font-size: 35px;
+    }
+    .page-one-header-two-b h1{
+      font-size: 50px;
+    }
+    .wallet-one img{
+        width: 200px;
+        left: 3px;
+    }
+    .wallet-one.img-2{
+        display: none;
+    }
+    .wallet-one.img-3{
+        display: none;
+    }
+}

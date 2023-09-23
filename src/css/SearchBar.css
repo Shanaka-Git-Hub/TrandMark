@@ -1,0 +1,18 @@
+input[type='text']{
+    border-radius: 20px 0 0 20px;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type='text']:hover{
+    opacity: 1;
+}
+@media screen and (max-width:641) {
+    input[type='text']{
+        border-radius: 20px 0 0 20px;
+        opacity: 0.5;
+        font-weight: bold;
+        font-size: 20px;
+        width: 100px;
+    }
+}

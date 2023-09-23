@@ -1,0 +1,15 @@
+.page-five-content{
+    height: 800px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#GFour{
+    width:auto;
+}
+@media screen and (max-width:1041px) {
+    .page-five-content{
+        height:1000px;
+        overflow: auto;
+    }
+}
